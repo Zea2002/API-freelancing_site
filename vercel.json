@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "dWorkWonders/wsgi.py"
+            "dest": "WorkWonders/wsgi.py"
         }
     ]
 }
