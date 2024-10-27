@@ -12,7 +12,7 @@ SECRET_KEY = 'django-insecure--lx3*umpx0jxawt&f2tr5gv0nevx^hmerkwkom+ui#dkue$me@
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".vercel.app"]
 
 # CSRF trusted origins
 CSRF_TRUSTED_ORIGINS = [
@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'api',
 ]
 
 # Middleware
