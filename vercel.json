@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
         "api/handler.py": {
-            "runtime": "3.12.2"
+            "runtime": "python3.11"
         }
     }
 }
